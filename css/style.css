@@ -12,15 +12,13 @@ a:hover {
 }
 
 #left, #right {
+    height: 100vh;
     width: 50%;
 }
 
 #left {
     /* for div tag itself*/
     background-image: url(../images/student.jpg);
-    /* vh and vw : viewport height / width
-    height and width of display available */
-    height: 100vh; 
     background-size: cover;
     background-position: center;
     padding: 2em 2em 1em;
@@ -71,6 +69,7 @@ nav a {
 
 #right {
     background-color: #f9f9f9;
+    overflow-y: auto; /* auto = scroll if needed, else scroll */
 }
 
 #right header {
@@ -132,6 +131,10 @@ nav a {
     margin-right: 10px;
 }
 
+.meta-author {
+    font-weight: 700;
+}
+
 .meta-date {
     color: #999;
 }
@@ -139,4 +142,4 @@ nav a {
 .post .read {
     font-weight: bold;
     text-decoration: underline;
-} 
+}
