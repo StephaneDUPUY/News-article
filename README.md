@@ -1,2 +1,1 @@
-# News-article
-News article - 02/09/2019
+# News-article - 02/09/2019
