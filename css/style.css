@@ -2,6 +2,15 @@ a {
     color: inherit;
 }
 
+/* to keep same color at hover without set it precisely */
+a:hover {
+    color: inherit;
+}
+
+a:visited {
+    color: #ccc;
+}
+
 .wrapper {
     display: flex;
 }
@@ -43,9 +52,23 @@ h1 {
 
 #left-message {
     text-align: right;
-    width: 75%;
+    padding: 1em 6% 1em 19%;
+    background-color: rgba(155, 155, 155, .3);
+    text-shadow: 0 0 4px #333; 
+}
+
+#left-message span {
+    font-size: .5em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#left-message p {
+    font-size: .8em;
+    font-weight: 500;
 }
 
 nav a {
     margin-left: 2em;
+    text-shadow: 0 0 4px #333; 
 }
