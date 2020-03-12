@@ -1,0 +1,51 @@
+a {
+    color: inherit;
+}
+
+.wrapper {
+    display: flex;
+}
+
+#left, #right {
+    width: 50%;
+}
+
+#left {
+    /* for div tag itself*/
+    background-image: url(../images/student.jpg);
+    /* vh and vw : viewport height / width
+    height and width of display available */
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    padding: 2em 2em 1em;
+
+    /* for content of div tag */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+}
+
+h1 {
+    background-image: url(../images/onews.svg);
+    background-repeat: no-repeat;
+    background-size: 1.3em;
+    background-position: 0 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 7em;
+    padding-left: 1.7em;
+    line-height: 1em;
+    align-self: flex-start;
+}
+
+#left-message {
+    text-align: right;
+    width: 75%;
+}
+
+nav a {
+    margin-left: 2em;
+}
