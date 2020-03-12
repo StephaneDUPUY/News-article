@@ -7,10 +7,6 @@ a:hover {
     color: inherit;
 }
 
-a:visited {
-    color: #ccc;
-}
-
 .wrapper {
     display: flex;
 }
@@ -72,3 +68,75 @@ nav a {
     margin-left: 2em;
     text-shadow: 0 0 4px #333; 
 }
+
+#right {
+    background-color: #f9f9f9;
+}
+
+#right header {
+    padding: 1em 2em;
+}
+
+#posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 50%;
+    background-color: white;
+    padding: 1.2em;
+    border: 1px solid #eaeaea;
+    border-left: none;
+    border-top: none;
+}
+
+.badge {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 3px 6px;
+    border-radius: 3px;
+    background-color: #666;
+    color: white;
+}
+
+.badge:hover{
+    color: #999;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #999;
+}
+
+.post-news .badge {
+    background-color: #98DC62;
+}
+
+.post-work .badge {
+    background-color: #0766F0;
+}
+
+.post-team .badge {
+    background-color: #DC5E53;
+}
+
+.post-sport .badge {
+    background-color: purple;
+}
+
+.meta {
+    font-size: 0.8em;
+    margin: 1em 0;
+}
+.meta-icon {
+    width: 2em;
+    margin-right: 10px;
+}
+
+.meta-date {
+    color: #999;
+}
+
+.post .read {
+    font-weight: bold;
+    text-decoration: underline;
+} 
