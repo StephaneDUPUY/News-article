@@ -22,6 +22,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     padding: 2em 2em 1em;
+    position: fixed;
 
     /* for content of div tag */
     display: flex;
@@ -69,7 +70,7 @@ nav a {
 
 #right {
     background-color: #f9f9f9;
-    overflow-y: auto; /* auto = scroll if needed, else scroll */
+    margin-left: 50%;
 }
 
 #right header {
